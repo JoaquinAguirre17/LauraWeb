@@ -1,0 +1,16 @@
+@media  (min-width: 320px) and (max-width: 480px) {
+    body{
+        display: grid;
+        grid-template-areas: 
+        "navegacion"
+        "main";
+    }
+    .main_home{
+        display: grid;
+        grid-template-areas: 
+        "titulo "
+        "texto1 "
+        "presentacion "
+        "servicios_inicio";
+    }
+}
