@@ -66,8 +66,10 @@ header .nav-link:hover {
 .main_servicios .servicios {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .main_servicios .servicios .card {
+  justify-content: center;
   margin: 10px;
   color: white;
   background-color: #682a4c;
@@ -182,6 +184,16 @@ header .nav-link:hover {
   height: 400px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    display: grid;
+    grid-template-areas: "navegacion" "main";
+  }
+  .main_home {
+    display: grid;
+    grid-template-areas: "titulo " "texto1 " "presentacion " "servicios_inicio";
+  }
+}
 /*------------------------MAIN HOME --------------------------------------------*/
 /*.MainHome{
     grid-area: main;

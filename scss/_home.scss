@@ -4,9 +4,12 @@
     grid-template-areas: 
     "titulo titulo"
     "texto1 texto1"
-    "presentacion presentacion"
-    "servicios_inicio servicios_inicio";
+    "foto_perfil titulo_presentacion"
+    "servicios servicios"
+    "card1 card1"
+    "boton boton";
     justify-content: center;
+    
     
     .titulo{
         grid-area: titulo;
@@ -20,38 +23,39 @@
         font-size: xx-large;
         font-family: fantasy;
     }
-    .presentacion{
+    /*.presentacion{
         background-color:rgba(196, 194, 193, 0.514);
         border-radius: 10px;
         grid-area: presentacion;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;*/
        .foto_perfil{
+        grid-area: foto_perfil;
            img{
                width: 300px;
                width: 300px;
            }
        }
        .titulo_presentacion{
+        grid-area: titulo_presentacion;
         margin: 10px;
        }
-    }
     
-    .servicios_inicio{
-        grid-area: servicios_inicio;
-        text-align: center;
-        background-color: rgba(131, 129, 127, 0.514);
-        border-radius: 10px;
-        margin-top: 5PX;
-        padding: 10px;
+    
+    .titulo_servicios{
+        grid-area: servicios;
        h2{
+        text-align: center;
         margin: 10px;
         font-size: xx-large;
         text-decoration: underline;
        }
-        .tarjetas{
-            display: flex;
-            justify-content: center;
+    }
+       .tarjetas{
+        grid-area: card1 ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
             .card{
                 background-color: #682a4c;
                 margin: 10px;
@@ -60,7 +64,11 @@
                 }
             }
             
-        }
+       }
+    .boton_servicios{
+        grid-area: boton;
+        text-align: center;
+        margin: 50PX;
     }
 
 }

@@ -10,7 +10,37 @@
         grid-template-areas: 
         "titulo "
         "texto1 "
-        "presentacion "
-        "servicios_inicio";
+        "foto_perfil "
+        "titulo_presentacion"
+        "servicios "
+        "card1 "
+        "boton";
+        justify-content: center;
+    }
+    .main_servicios{
+        .titulo{
+          margin: 30px;
+          text-align: center;
+        }
+    }
+   
+}
+@media  (min-width: 550px) and (max-width: 771px) {
+   .main_home{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto1 texto1"
+    "foto_perfil titulo_presentacion"
+    "servicios "
+    "card1 "
+    "boton ";
+    justify-content: center;
+   }
+    .main_servicios{
+        .titulo{
+        margin: 30px;
+        text-align: center;
+        }
     }
 }
