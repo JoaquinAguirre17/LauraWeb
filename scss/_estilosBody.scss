@@ -1,0 +1,30 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+/*-------------------------Grillas generales-----------------*/
+body{
+    display: grid;
+    grid-template-areas: 
+    "navegacion"
+    "main";
+    min-height: auto;
+    background-image: url(../Img/pexels-solodsha-7664093.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    height: 100%;
+    width: 100%;
+
+    .container{
+        background-color: rgba(0, 0, 0, 0.849);
+        justify-content: center;
+        margin-top: 50px;
+        border-radius: 10px;
+        color: white
+        
+    }  
+ 
+}

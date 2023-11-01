@@ -1,0 +1,66 @@
+
+.main_home{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto1 texto1"
+    "presentacion presentacion"
+    "servicios_inicio servicios_inicio";
+    justify-content: center;
+    
+    .titulo{
+        grid-area: titulo;
+        margin: 20px;
+        text-align: center;
+        font-family: cursive;
+    }
+    .texto1{
+        grid-area: texto1;
+        text-align: center;
+        font-size: xx-large;
+        font-family: fantasy;
+    }
+    .presentacion{
+        background-color:rgba(196, 194, 193, 0.514);
+        border-radius: 10px;
+        grid-area: presentacion;
+        display: flex;
+        flex-wrap: wrap;
+       .foto_perfil{
+           img{
+               width: 300px;
+               width: 300px;
+           }
+       }
+       .titulo_presentacion{
+        margin: 10px;
+       }
+    }
+    
+    .servicios_inicio{
+        grid-area: servicios_inicio;
+        text-align: center;
+        background-color: rgba(131, 129, 127, 0.514);
+        border-radius: 10px;
+        margin-top: 5PX;
+        padding: 10px;
+       h2{
+        margin: 10px;
+        font-size: xx-large;
+        text-decoration: underline;
+       }
+        .tarjetas{
+            display: flex;
+            justify-content: center;
+            .card{
+                background-color: #682a4c;
+                margin: 10px;
+                img{
+                    height: 400px;
+                }
+            }
+            
+        }
+    }
+
+}

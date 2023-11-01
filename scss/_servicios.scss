@@ -1,0 +1,22 @@
+.main_servicios{
+  .servicios{
+    display: flex;
+    flex-wrap: wrap;
+    .card{
+        margin: 10px;
+        color: white;
+        background-color: #682a4c;
+        .card-title{
+          text-decoration: underline;
+          font-size: x-large;
+        }
+        .card-text{
+          font-size: x-large;
+        }
+        img{
+          height: 300px;
+          width: 100%;
+        }
+    }
+  }  
+}

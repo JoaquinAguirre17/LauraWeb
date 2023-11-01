@@ -1,0 +1,23 @@
+.main_esculpidas{
+    .titulo{
+        margin: 10px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .soft_gel{
+            margin: 10px;
+            font-size: xx-large;
+    
+        .imagenes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            img{
+                height: 400px;
+                width: 400px;
+                margin: 10px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

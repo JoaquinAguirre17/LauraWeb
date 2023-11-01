@@ -1,0 +1,45 @@
+/*-------------------------HEADER Y BARRA DE NAVEGACION--------------------------------------*/
+header{
+    grid-area:navegacion;
+   
+    nav{
+        background-color: #f008888e; 
+       display: flex;
+        
+        .nav-link{
+            color: white;
+            font-size: x-large;
+            background-color: rgba(0, 0, 0, 0.562);
+            border-radius: 10px;
+            border-style: solid;
+            border-color: rgba(252, 249, 252, 0.466);
+            margin: 10px;
+            padding: 10px; 
+            .li:hover{
+                color: red;
+            }
+        }
+       
+       
+       
+        .navbar-toggler{
+            background-color: gray;
+        }
+        .dropdown-menu{
+            background-color:rgba(197, 19, 220, 0.415);
+            border-style: solid;
+            border-color: rgb(61, 2, 57);
+            a{
+                color: white;
+            }
+           
+        }
+        .offcanvas{
+            background-color:rgba(253, 4, 253, 0.422);
+        }
+    }
+    
+ .nav-link:hover{
+    color: rgb(255, 217, 0);
+ }
+}

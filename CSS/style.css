@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------------Grillas generales-----------------*/
+body {
+  display: grid;
+  grid-template-areas: "navegacion" "main";
+  min-height: auto;
+  background-image: url(../Img/pexels-solodsha-7664093.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+body .container {
+  background-color: rgba(0, 0, 0, 0.849);
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 10px;
+  color: white;
+}
+
+/*-------------------------HEADER Y BARRA DE NAVEGACION--------------------------------------*/
+header {
+  grid-area: navegacion;
+}
+header nav {
+  background-color: rgba(240, 8, 136, 0.5568627451);
+  display: flex;
+}
+header nav .nav-link {
+  color: white;
+  font-size: x-large;
+  background-color: rgba(0, 0, 0, 0.562);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(252, 249, 252, 0.466);
+  margin: 10px;
+  padding: 10px;
+}
+header nav .nav-link .li:hover {
+  color: red;
+}
+header nav .navbar-toggler {
+  background-color: gray;
+}
+header nav .dropdown-menu {
+  background-color: rgba(197, 19, 220, 0.415);
+  border-style: solid;
+  border-color: rgb(61, 2, 57);
+}
+header nav .dropdown-menu a {
+  color: white;
+}
+header nav .offcanvas {
+  background-color: rgba(253, 4, 253, 0.422);
+}
+header .nav-link:hover {
+  color: rgb(255, 217, 0);
+}
+
+.main_servicios .servicios {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_servicios .servicios .card {
+  margin: 10px;
+  color: white;
+  background-color: #682a4c;
+}
+.main_servicios .servicios .card .card-title {
+  text-decoration: underline;
+  font-size: x-large;
+}
+.main_servicios .servicios .card .card-text {
+  font-size: x-large;
+}
+.main_servicios .servicios .card img {
+  height: 300px;
+  width: 100%;
+}
+
+.main_esculpidas .titulo {
+  margin: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+.main_esculpidas .soft_gel {
+  margin: 10px;
+  font-size: xx-large;
+}
+.main_esculpidas .soft_gel .imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main_esculpidas .soft_gel .imagenes img {
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.main_capping .titulo {
+  margin: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+.main_capping .capping {
+  margin: 10px;
+  font-size: xx-large;
+}
+.main_capping .capping .imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main_capping .capping .imagenes img {
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.main_home {
+  display: grid;
+  grid-template-areas: "titulo titulo" "texto1 texto1" "presentacion presentacion" "servicios_inicio servicios_inicio";
+  justify-content: center;
+}
+.main_home .titulo {
+  grid-area: titulo;
+  margin: 20px;
+  text-align: center;
+  font-family: cursive;
+}
+.main_home .texto1 {
+  grid-area: texto1;
+  text-align: center;
+  font-size: xx-large;
+  font-family: fantasy;
+}
+.main_home .presentacion {
+  background-color: rgba(196, 194, 193, 0.514);
+  border-radius: 10px;
+  grid-area: presentacion;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_home .presentacion .foto_perfil img {
+  width: 300px;
+  width: 300px;
+}
+.main_home .presentacion .titulo_presentacion {
+  margin: 10px;
+}
+.main_home .servicios_inicio {
+  grid-area: servicios_inicio;
+  text-align: center;
+  background-color: rgba(131, 129, 127, 0.514);
+  border-radius: 10px;
+  margin-top: 5PX;
+  padding: 10px;
+}
+.main_home .servicios_inicio h2 {
+  margin: 10px;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+.main_home .servicios_inicio .tarjetas {
+  display: flex;
+  justify-content: center;
+}
+.main_home .servicios_inicio .tarjetas .card {
+  background-color: #682a4c;
+  margin: 10px;
+}
+.main_home .servicios_inicio .tarjetas .card img {
+  height: 400px;
+}
+
+/*------------------------MAIN HOME --------------------------------------------*/
+/*.MainHome{
+    grid-area: main;
+    font-family:serif;
+}
+.Presentacion{
+    margin: 30px;
+    color: white; 
+    background-color:rgba(4, 4, 4, 0.274) ;
+    padding: 10px;
+    width: 25%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(94, 6, 105, 0.867);
+    text-align: center;
+}
+/*----------------------MANIN SEMIPERMANENTES-----------------------------*/
+/*.MainSemi{
+
+    background-color:rgba(4, 4, 4, 0.274) ;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(94, 6, 105, 0.867);
+}*/
+
+/*# sourceMappingURL=style.css.map */

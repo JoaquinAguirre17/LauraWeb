@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------------Grillas generales-----------------*/
+body {
+  display: grid;
+  grid-template-areas: "navegacion " "main";
+  background-image: url(../Img/Prueba1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*-------------------------HEADER Y BARRA DE NAVEGACION--------------------------------------*/
+header {
+  grid-area: navegacion;
+}
+header nav {
+  background-color: rgba(241, 0, 133, 0.6862745098);
+  display: flex;
+}
+header nav .tituloh1 {
+  color: white;
+  text-decoration: underline;
+}
+header nav .nav-link {
+  color: white;
+}
+header nav .navbar-toggler {
+  background-color: gray;
+}
+header nav .dropdown-menu {
+  background-color: rgba(197, 19, 220, 0.415);
+  border-style: solid;
+  border-color: rgb(61, 2, 57);
+}
+header nav .dropdown-menu a {
+  color: white;
+}
+header nav .offcanvas {
+  background-color: rgba(1, 0, 1, 0.422);
+}
+
+.MainCapping {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  grid-area: main;
+  background-color: rgba(24, 10, 10, 0.5411764706);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(94, 6, 105, 0.867);
+  /*.card{
+      margin: 10px;
+      border-radius: 10px;
+      border-style: solid;
+      border-color:rgba(94, 6, 105, 0.867) ;
+     border-width: 3px;
+      .card-body{
+          background-color: #FFEADD;
+          border-radius: 10px;
+      }
+  }*/
+}
+.MainCapping img {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: violet;
+}
+
+/*-------------------------HEADER Y BARRA DE NAVEGACION--------------------------------------*/
+header {
+  grid-area: navegacion;
+}
+header nav {
+  background-color: rgba(241, 0, 133, 0.6862745098);
+  display: flex;
+}
+header nav .tituloh1 {
+  color: white;
+  text-decoration: underline;
+}
+header nav .nav-link {
+  color: white;
+}
+header nav .navbar-toggler {
+  background-color: gray;
+}
+header nav .dropdown-menu {
+  background-color: rgba(197, 19, 220, 0.415);
+  border-style: solid;
+  border-color: rgb(61, 2, 57);
+}
+header nav .dropdown-menu a {
+  color: white;
+}
+header nav .offcanvas {
+  background-color: rgba(1, 0, 1, 0.422);
+}
+
+/*------------------------MAIN HOME --------------------------------------------*/
+/*.MainHome{
+    grid-area: main;
+    font-family:serif;
+}
+.Presentacion{
+    margin: 30px;
+    color: white; 
+    background-color:rgba(4, 4, 4, 0.274) ;
+    padding: 10px;
+    width: 25%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(94, 6, 105, 0.867);
+    text-align: center;
+}
+/*----------------------MANIN SEMIPERMANENTES-----------------------------*/
+/*.MainSemi{
+
+    background-color:rgba(4, 4, 4, 0.274) ;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(94, 6, 105, 0.867);
+}*/
+
+/*# sourceMappingURL=style.css.map */
